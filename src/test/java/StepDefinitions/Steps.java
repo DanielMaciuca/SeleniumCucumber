@@ -12,8 +12,8 @@ public class Steps {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
-    @When("the user enters the righ credentials")
-    public void the_user_enters_the_righ_credentials() {
+    @When("the user enters the right credentials")
+    public void the_user_enters_the_right_credentials() {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
