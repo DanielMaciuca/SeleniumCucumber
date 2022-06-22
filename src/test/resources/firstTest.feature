@@ -4,3 +4,4 @@ Feature: Web Login1
     When the user enters the right credentials
     And hits submit button
     Then the user is logged in successfully
+    And adding a 100 step
