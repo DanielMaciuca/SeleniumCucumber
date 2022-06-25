@@ -2,4 +2,5 @@
 abc
 def
 guacamole
-din remote
+GOGU
+DIN REMOTE
