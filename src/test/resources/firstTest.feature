@@ -6,3 +6,4 @@ Feature: Web Login1
     And adding a 100 step
     And adding a 100 step
 Remote randul 8.
+int a = 5;
