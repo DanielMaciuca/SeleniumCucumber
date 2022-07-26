@@ -5,4 +5,4 @@ main 2 from remote
 feature 3 from local
 main 3 from remote
 main 4 from remote
-main 5
+main 5 from remote
