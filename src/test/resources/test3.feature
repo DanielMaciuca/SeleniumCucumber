@@ -7,4 +7,5 @@ main 3 from remote
 main 4 from remote
 feature 6 from local
 main 6 from remote
+feature 7 from local
 main 7 from remote
