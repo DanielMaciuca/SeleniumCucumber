@@ -15,3 +15,4 @@ inca o data din remote
 feature 7 local (variabila)
 feature 7 local
 feature 8 remote
+feature 10 local
