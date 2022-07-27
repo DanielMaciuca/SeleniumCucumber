@@ -10,3 +10,4 @@ main 6 from remote
 feature 7 from local
 main 7 from remote
 ca la munca din remote
+inca o data din remote
