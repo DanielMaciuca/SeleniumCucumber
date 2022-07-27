@@ -14,3 +14,4 @@ inca o data local (am updatat)
 inca o data din remote
 feature 7 local (variabila)
 feature 7 local
+feature 8 din local
