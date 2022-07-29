@@ -11,4 +11,5 @@
 17 from remote
 20 from local (prima data fac modificarea)
 20 remote
+21 local UPDATED
 21 remote
