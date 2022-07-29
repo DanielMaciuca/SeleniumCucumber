@@ -7,3 +7,4 @@
 7 remote altcineva
 11 local commit(updated)zaza
 11 commit din remote
+17 from remote
