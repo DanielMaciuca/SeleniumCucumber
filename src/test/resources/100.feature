@@ -9,4 +9,5 @@
 11 commit din remote
 17 from local modified, inca 1, inca2, inca 3, ULTIMA
 17 from remote
+20 from local (prima data fac modificarea)
 20 remote
