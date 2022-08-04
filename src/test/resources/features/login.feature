@@ -6,5 +6,5 @@ Feature: login
     Then User click again "Name" and price 100
     Then User enters <100>
   Scenario: Get login 2
-
+gigel a adaugat ceva
 
