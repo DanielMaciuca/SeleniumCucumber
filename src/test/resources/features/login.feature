@@ -5,5 +5,5 @@ Feature: login
     Then User click again
     Then User click again "Name" and price 1001
     Then User enters <100>
-  Scenario: Get login
+  Scenario: Get login updated
 
