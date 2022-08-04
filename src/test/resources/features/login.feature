@@ -5,6 +5,6 @@ Feature: login
     Then User click again
     Then User click again "Name" and price 100
     Then User enters <100>
-  Scenario: Get login 2
+  Scenario: Get login 2 gigel
 gigel a adaugat ceva
 
