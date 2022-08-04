@@ -7,4 +7,4 @@ Feature: login
     Then User enters <100>
   Scenario: Get login 2 gigel
 gigel a adaugat ceva
-
+feature 100 remote
