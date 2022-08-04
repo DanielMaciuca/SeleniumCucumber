@@ -7,4 +7,7 @@ Feature: login
     Then User enters <100>
   Scenario: Get login 2 gigel
 gigel a adaugat ceva
+
+    snte pe featuree 200
+    feate 100 remote
 feature 100 remote
