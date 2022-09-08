@@ -1,3 +1,1 @@
-
-din remote
-remote 2
+primul commit modificare ceruta de x, inainte de bifa amm
