@@ -6,4 +6,5 @@ Gigel test 2
 VINE GIGEL 3
 
   INCA CEVA
+  -test daniel (mai trebuia ceva)
 TEST GIGEL
