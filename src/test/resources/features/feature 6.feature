@@ -4,3 +4,4 @@ COMMIT GIGEL
 COMMIT IONEL
 FARA REBASE
 2. cu rebase
+  3 istorie commit 1 daniel updated
