@@ -1,3 +1,4 @@
 -new feature
 -feature 500
 - DIN REMOTE GIGEL
+- din remote mihaita
