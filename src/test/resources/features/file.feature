@@ -29,3 +29,4 @@ Feature: second
    commit NOU remote
 zaza rm
 ULTIM REMOTE
+FILE REMOTE
