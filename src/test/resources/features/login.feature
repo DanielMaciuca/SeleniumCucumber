@@ -9,5 +9,5 @@ Feature: login
     Given user enters another name
     Then user enters second password "admin"
     Then ala bala portocala
-
+    And Remote
 
