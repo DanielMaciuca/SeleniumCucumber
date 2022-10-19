@@ -26,5 +26,6 @@ Feature: second
     pas din remote
     pas 2 din remote
     pas 3 din remote
+   commit NOU remote
 
 
