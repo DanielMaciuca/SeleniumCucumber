@@ -5,6 +5,6 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/features",glue={"StepDef"})
+@CucumberOptions(features="src/test/resources/features",glue={"StepDef"},stepNotifications = true)
 public class TestRunner {
 }

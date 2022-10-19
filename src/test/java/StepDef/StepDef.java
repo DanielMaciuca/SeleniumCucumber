@@ -27,9 +27,18 @@ public class StepDef {
         System.out.println(prim + " " + sec);
     }
 
-
     @Then("User enters <{int}>")
     public void userEnters(int arg0) {
         System.out.println(arg0);
+    }
+
+    @Given("^user enters another name$")
+    public void userEntersAnotherName() {
+        System.out.println("Another name");
+    }
+
+    @Then("user enters second password {string}")
+    public void userEntersSecondPassword(String ac) {
+        System.out.println(ac);
     }
 }
