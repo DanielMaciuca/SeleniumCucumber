@@ -30,3 +30,4 @@ Feature: second
 zaza rm
 ULTIM REMOTE
 FILE REMOTE
+codac remote
