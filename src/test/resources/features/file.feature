@@ -23,5 +23,6 @@ Feature: second
   Scenario: Get login fourth
     Given user enters another name
     Then user enters second password "admin"
+    pas din remote
 
 
