@@ -25,5 +25,6 @@ Feature: second
     Then user enters second password "admin"
     pas din remote
     pas 2 din remote
+    pas 3 din remote
 
 
