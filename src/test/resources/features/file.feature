@@ -23,11 +23,4 @@ Feature: second
   Scenario: Get login fourth
     Given user enters another name
     Then user enters second password "admin"
-    pas din remote
-    pas 2 din remote
-    pas 3 din remote
-   commit NOU remote
-zaza rm
-ULTIM REMOTE
-FILE REMOTE
-codac remote
+
