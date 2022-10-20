@@ -8,8 +8,3 @@ Feature: login
   Scenario: Get login updated
     Given user enters another name
     Then user enters second password "admin"
-din remote
-jhihu
-    ,,,,,,,,,,
-    ===============================================
-
