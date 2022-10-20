@@ -10,4 +10,5 @@ Feature: login
     Then user enters second password "admin"
 din remote
 jhihu
+    ,,,,,,,,,,
 
