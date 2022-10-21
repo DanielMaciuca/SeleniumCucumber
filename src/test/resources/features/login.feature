@@ -8,6 +8,6 @@ Feature: login
   Scenario: Get login updated
     Given user enters another name
     Then user enters second password "admin"
-DIN REMOTE A
+DIN REMOTE Aa
     feature local
 REMOTE AGAIN H
