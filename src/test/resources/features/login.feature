@@ -9,4 +9,5 @@ Feature: login
     Given user enters another name
     Then user enters second password "admin"
 DIN REMOTE A
+    feature local
 REMOTE AGAIN H
