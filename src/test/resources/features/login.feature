@@ -1,5 +1,5 @@
 Feature: login
-  Scenario: Get login
+  Scenario: Get login 1
     Given User is on page
     Then User click
     Then User click again
@@ -8,6 +8,3 @@ Feature: login
   Scenario: Get login updated
     Given user enters another name
     Then user enters second password "admin"
-DIN REMOTE Aa
-    feature local
-REMOTE AGAIN H

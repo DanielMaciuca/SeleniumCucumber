@@ -1,17 +1,19 @@
+@Run
+
 Feature: second
 
-  Scenario: Get login one
+  Scenario: Get login 1
     Given User is on page
     Then User click
     Then User click again
     Then User click again "Name" and price 1002
     Then User enters <100>
 
-  Scenario: Get login two
+  Scenario: Get login 2
     Given user enters another name
     Then user enters second password "admin2"
 
-  Scenario: Get login three
+  Scenario: Get login 3
     Given User is on page
     Then User click
     Then User click again
@@ -19,8 +21,8 @@ Feature: second
     Then User enters <100>
     Then User enters <1004>
 
- @Run
-  Scenario: Get login fourth
+
+  Scenario: Get login 4
     Given user enters another name
     Then user enters second password "admin"
-MIKI
+
