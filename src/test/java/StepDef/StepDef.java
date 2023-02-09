@@ -3,7 +3,6 @@ package StepDef;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.opentelemetry.exporter.logging.SystemOutLogExporter;
 
 public class StepDef {
 
@@ -40,5 +39,11 @@ public class StepDef {
     @Then("user enters second password {string}")
     public void userEntersSecondPassword(String ac) {
         System.out.println(ac);
+    }
+
+    @Given("there are {int} cucumbers")
+    public void thereAreStartCucumbers(int n) {
+        System.out.println(n);
+
     }
 }
