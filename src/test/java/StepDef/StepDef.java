@@ -1,6 +1,8 @@
 package StepDef;
 
 
+
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
@@ -44,6 +46,11 @@ public class StepDef {
     @Given("there are {int} cucumbers and {int}")
     public void thereAreStartCucumbers(int n, int m) {
         System.out.println(n + "" + m);
+
+    }
+
+    @Then("User enters the following details")
+    public void userEntersTheFollowingDetails(DataTable table) {
 
     }
 }
