@@ -41,9 +41,9 @@ public class StepDef {
         System.out.println(ac);
     }
 
-    @Given("there are {int} cucumbers")
-    public void thereAreStartCucumbers(int n) {
-        System.out.println(n);
+    @Given("there are {int} cucumbers and {int}")
+    public void thereAreStartCucumbers(int n, int m) {
+        System.out.println(n + "" + m);
 
     }
 }
