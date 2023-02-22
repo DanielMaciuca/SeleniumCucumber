@@ -1,6 +1,6 @@
 Feature: login
 
-  Scenario: Get login 1
+  Scenario: Get login 1 2
     Given User is on page
     Then User click
     Then User click again "Name" and price 1001
