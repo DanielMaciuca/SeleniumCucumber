@@ -22,7 +22,7 @@ Feature: second
     Then User enters <1004>
 
 
-  Scenario: Get login 4 updated
+  Scenario: Get login 4 updated again
     Given user enters another name
     Then user enters second password "admin"
 
