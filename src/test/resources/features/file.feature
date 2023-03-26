@@ -26,3 +26,8 @@ Feature: second
     Given user enters another name
     Then user enters second password "admin"
 
+
+  Scenario: stuff
+    Given user enters another name
+    Then user enters second password "admin
+
