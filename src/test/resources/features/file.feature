@@ -26,4 +26,4 @@ Feature: second
     Given user enters another name
     Then user enters second password "admin"
 
-ala bala portocala
+inca ceva
