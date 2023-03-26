@@ -26,3 +26,7 @@ Feature: second
     Given user enters another name
     Then user enters second password "admin"
 
+  Scenario: Get login 5 just for rebase
+    Given user enters another name
+    Then user enters second password "admin"
+
