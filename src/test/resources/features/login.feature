@@ -10,5 +10,5 @@ Feature: login
     Given user enters another name
     Then user enters second password "admin"
 
-    file 1
-    file 11
+    test
+    test2222
