@@ -5,4 +5,4 @@ Feature: login
     Then User click
     Then User enters the following details
       | name  | password      | age | gender |
-      | admin | adminpassword | 18  | M      |
+      | admin | adminpassword | 18  | M      |11
