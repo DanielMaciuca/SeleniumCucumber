@@ -6,6 +6,8 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
+import static org.junit.Assert.assertEquals;
+
 public class StepDef {
 
     @Given("User is on page")
@@ -52,5 +54,12 @@ public class StepDef {
     @Then("User enters the following details")
     public void userEntersTheFollowingDetails(DataTable table) {
 
+    }
+
+
+    @Given("check if <{int}> equal <{int}>")
+    public void checkIfEqual(int arg0, int arg1) {
+
+        assertEquals(arg0,arg1);
     }
 }
