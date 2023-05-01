@@ -38,7 +38,6 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
     <build>
         <plugins>
@@ -56,10 +55,15 @@
     </build>
     <profiles>
         <profile>
-            <id>integration-tests</id>
-        </profile>
-        <profile>
-            <id>mutation-tests</id>
+            <id>qa2</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <cucumber.options>
+                    --tags @UI
+                </cucumber.options>
+            </properties>
         </profile>
     </profiles>
 </project>

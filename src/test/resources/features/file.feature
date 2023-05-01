@@ -13,7 +13,7 @@ Feature: second
   Scenario: Get login 2
     Given user enters another name
     Then user enters second password "admin2"
-  @Run
+
   Scenario: Get login 3
     Given User is on page
     Then User click

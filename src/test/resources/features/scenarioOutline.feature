@@ -1,3 +1,4 @@
+@NotUI
 Feature: scenarioOutline
 
   Scenario Outline: eating
