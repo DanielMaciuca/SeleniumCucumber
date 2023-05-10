@@ -2,4 +2,4 @@
 Feature: ceva
 
   Scenario: portocala
-    Given check if <100> equal <100>
+    Given check if <104> equal <104>
