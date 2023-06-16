@@ -1,7 +1,7 @@
 
 
 Feature: second
-  @Run
+  @Run3
   Scenario: Get login 1
     Given User is on page
     Then User click

@@ -65,5 +65,16 @@
                 </cucumber.options>
             </properties>
         </profile>
+        <profile>
+            <id>backend</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <cucumber.options>
+                    --tags @BE
+                </cucumber.options>
+            </properties>
+        </profile>
     </profiles>
 </project>
