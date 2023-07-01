@@ -1,7 +1,5 @@
 
-
 Feature: second
-  @Run3
   Scenario: Get login 1
     Given User is on page
     Then User click
@@ -9,7 +7,6 @@ Feature: second
     Then User click again "Name" and price 1002
     Then User enters <100>
 
-  @Defect
   Scenario: Get login 2
     Given user enters another name
     Then user enters second password "admin2"

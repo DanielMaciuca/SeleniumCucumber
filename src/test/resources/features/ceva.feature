@@ -1,4 +1,4 @@
-@qa2
+
 Feature: ceva
 
   Scenario: portocala

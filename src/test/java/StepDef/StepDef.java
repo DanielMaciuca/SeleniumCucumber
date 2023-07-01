@@ -56,7 +56,6 @@ public class StepDef {
 
     }
 
-
     @Given("check if <{int}> equal <{int}>")
     public void checkIfEqual(int arg0, int arg1) {
 
