@@ -1,10 +1,11 @@
 package StepDef;
 
-
-
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+
+import java.util.List;
+import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 
@@ -51,8 +52,23 @@ public class StepDef {
 
     }
 
-    @Then("User enters the following details")
-    public void userEntersTheFollowingDetails(DataTable table) {
+    @Then("User enters the following details:")
+    public void userEntersTheFollowingDetails(DataTable dataTable) {
+
+        List<Map<String, String>> items = dataTable.asMaps(String.class, String.class);
+
+        for (Map<String, String> item : items) {
+            String itemName = item.get("Item");
+            System.out.println(itemName);
+//            int age = Integer.parseInt(item.get("Age"));
+//            System.out.println(age);
+
+        }
+//        for (Map<String, String> Age : items) {
+//            int age = Integer.parseInt(Age.get("Age"));
+//            System.out.println(age);
+//
+//        }
 
     }
 
