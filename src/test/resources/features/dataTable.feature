@@ -5,6 +5,7 @@ Feature: login
     Given User is on page
     Then User click
     Then User enters the following details:
-      | Item  | Age | Password | Ultima |
-      | name  | 11  | 25       | gender |
-      | admin | 22  | 18       | M      |
+      | Item       | Quantity | Price |
+      | Apples     | 5        | 2.50  |
+      | Bananas    | 3        | 1.20  |
+      | Chocolate  | 2        | 3.75  |

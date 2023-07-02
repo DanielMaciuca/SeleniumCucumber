@@ -60,15 +60,12 @@ public class StepDef {
         for (Map<String, String> item : items) {
             String itemName = item.get("Item");
             System.out.println(itemName);
-//            int age = Integer.parseInt(item.get("Age"));
-//            System.out.println(age);
-
+            int quantity = Integer.parseInt(item.get("Quantity"));
+            System.out.println(quantity);
+            double price = Double.parseDouble(item.get("Price"));
+            System.out.println(price);
+            // NU MERGE
         }
-//        for (Map<String, String> Age : items) {
-//            int age = Integer.parseInt(Age.get("Age"));
-//            System.out.println(age);
-//
-//        }
 
     }
 
