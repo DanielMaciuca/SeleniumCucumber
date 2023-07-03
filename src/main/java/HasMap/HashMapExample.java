@@ -1,15 +1,10 @@
 package HasMap;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class HashMapExample {
 
     public static void main(String[] args) {
-
-        int a = 10;
-        int b = 20;
-        int c = 30;
 
         HashMap<String, Integer> happy = new HashMap<>();
 
@@ -22,19 +17,23 @@ public class HashMapExample {
 
         System.out.println(happy);
 
+        myHash();
+
+    }
+    public static void  myHash() {
         HashMap<String, String> fun = new HashMap<>();
 
         fun.put("Boby99", "fluffy!");
         fun.put("Gigi", "porto");
-		fun.put("Nicu", "mona100");
-		fun.put("Mihai", "mona100");
-        fun.remove("Gigi");
+        fun.put("Nicu", "mona100");
+        fun.put("Mihai", "mona100");
+        fun.remove("Gigi"); //remove
 
         System.out.println(fun);
 
-        System.out.println(fun.replace("Mihai", "monaUpdated"));
+        System.out.println(fun.replace("Mihai", "monaUpdated")); //replace
 
-		System.out.println(fun);
+        System.out.println(fun);
 
     }
 }
