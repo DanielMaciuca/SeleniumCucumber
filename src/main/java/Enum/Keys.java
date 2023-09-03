@@ -3,6 +3,7 @@ package Enum;
 public enum Keys {
 
     // Elements of an enum are by default 'public static final'
+    //Are treated as constants, making them unchangeable after they are initialized
 
     //Predefined set of values
     AMOUNT("amount"),
