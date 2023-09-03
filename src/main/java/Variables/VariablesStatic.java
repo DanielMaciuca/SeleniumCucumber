@@ -8,7 +8,7 @@ class Port{
 
 }
 
-public class Variables {
+public class VariablesStatic {
 
     public static void main(String[] args) {
 
@@ -26,8 +26,10 @@ public class Variables {
         myObject2.ceva = 66;
 
         System.out.println(myObject1.name);
+        //same value is printed (66)
         System.out.println(myObject2.ceva);
         System.out.println(myObject2.name);
+        //same value is printed (66)
         System.out.println(myObject1.ceva);
 
     }

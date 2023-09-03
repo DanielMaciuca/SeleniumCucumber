@@ -1,9 +1,11 @@
 package Enum;
 
+import static Enum.Keys.DB_TIMESTAMP;
+
 public class Main {
     public static void main(String[] args) {
 
-        //Don't need new() keword because it is an enum
+        //Don't need new() keyword because it is an enum
 
         Keys first = Keys.AMOUNT;
 
@@ -11,7 +13,12 @@ public class Main {
 
         System.out.println(Keys.NUMBER.keyName);
 
+        Keys second = Keys.DATE;
 
+        System.out.println(second.getName());
+
+        //this works because elements of an enum are by default 'public static final', you just need to import the element
+        System.out.println(DB_TIMESTAMP.getName());
 
     }
 }
