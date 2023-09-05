@@ -1,6 +1,6 @@
 package Variables;
 
-class Port{
+class StaticVariables {
 
     String name = "Cici";
 
@@ -8,12 +8,12 @@ class Port{
 
 }
 
-public class VariablesStatic {
+public class Main {
 
     public static void main(String[] args) {
 
-        Port myObject1 = new Port();
-        Port myObject2 = new Port();
+        StaticVariables myObject1 = new StaticVariables();
+        StaticVariables myObject2 = new StaticVariables();
 
         System.out.println(myObject1.name);
 
