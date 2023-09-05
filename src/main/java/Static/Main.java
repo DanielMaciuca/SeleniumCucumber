@@ -1,10 +1,10 @@
-package Variables;
+package Static;
 
 class StaticVariables {
 
     String name = "Cici";
 
-    static int ceva;
+    static int comun;
 
 }
 
@@ -17,20 +17,20 @@ public class Main {
 
         System.out.println(myObject1.name);
 
-        myObject1.ceva = 55;
+        myObject1.comun = 55;
 
-        System.out.println(myObject1.ceva);
+        System.out.println(myObject1.comun);
 
         myObject2.name = "Sarpe";
 
-        myObject2.ceva = 66;
+        myObject2.comun = 66;
 
         System.out.println(myObject1.name);
-        //same value is printed (66)
-        System.out.println(myObject2.ceva);
         System.out.println(myObject2.name);
         //same value is printed (66)
-        System.out.println(myObject1.ceva);
+        System.out.println(myObject1.comun);
+        System.out.println(myObject2.comun);
+
 
     }
 
