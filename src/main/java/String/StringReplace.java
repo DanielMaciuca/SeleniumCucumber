@@ -1,6 +1,6 @@
 package String;
 
-public class Replace {
+public class StringReplace {
 
     public void myReplaceFunction(String Text) {
 

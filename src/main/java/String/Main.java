@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         String Text = "Ala bala portocala";
-        Replace a = new Replace();
+        StringReplace a = new StringReplace();
         a.myReplaceFunction(Text);
 
     }
