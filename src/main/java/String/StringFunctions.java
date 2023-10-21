@@ -20,13 +20,6 @@ public class StringFunctions {
 
         System.out.println(space[1]);
 
-//        for (String parcurgere : space){
-//
-//            System.out.println(space);
-//
-//        }
-
-
     }
 
 }

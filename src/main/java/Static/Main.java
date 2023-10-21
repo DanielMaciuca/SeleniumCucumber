@@ -15,15 +15,11 @@ public class Main {
         StaticVariables myObject1 = new StaticVariables();
         StaticVariables myObject2 = new StaticVariables();
 
-        System.out.println(myObject1.name);
-
         myObject1.comun = 55;
 
-        System.out.println(myObject1.comun);
+        myObject2.comun = 66;
 
         myObject2.name = "Sarpe";
-
-        myObject2.comun = 66;
 
         System.out.println(myObject1.name);
         System.out.println(myObject2.name);

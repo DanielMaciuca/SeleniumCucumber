@@ -11,9 +11,9 @@ class StaticExample {
         instance1.staticField = 20;
         instance2.staticField = 10;
 
-        System.out.println(instance1.staticField);  // Output: 20
-        System.out.println(instance2.staticField);  // Output: 20
-        System.out.println(StaticExample.staticField);    // Output: 20
+        System.out.println(instance1.staticField);
+        System.out.println(instance2.staticField);
+        System.out.println(StaticExample.staticField);
     }
 }
 
