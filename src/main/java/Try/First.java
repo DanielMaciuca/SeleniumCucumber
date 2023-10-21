@@ -2,5 +2,5 @@ package Try;
 
 public class First {
 
-    public int a = 10;
+    public int a = 12;
 }
