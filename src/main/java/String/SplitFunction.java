@@ -6,6 +6,7 @@ public class SplitFunction {
 
         //Split function
         String myString = "123-456";
+
         String[] parts = myString.split("-");
 
         System.out.println(parts[0]);

@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String Text = "Ala bala portocala";
-        StringReplace a = new StringReplace();
-        a.myReplaceFunction(Text);
+        String initialText = "Ala bala portocala";
+        StringReplace myString = new StringReplace();
+        myString.myReplaceFunction(initialText);
 
     }
 }

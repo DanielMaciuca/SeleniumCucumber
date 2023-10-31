@@ -4,9 +4,9 @@ public class StringReplace {
 
     public void myReplaceFunction(String Text) {
 
-        String newText = Text.replace("bala", "ceva");
+        String replacedText = Text.replace("bala", "ceva");
 
-        System.out.println(newText);
+        System.out.println(replacedText);
 
     }
 
