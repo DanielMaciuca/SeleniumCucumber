@@ -5,9 +5,9 @@ public class DemoConstructor {
     int age;
     String name;
 
-    DemoConstructor(int a, String b) {
+    DemoConstructor(int age, String b) {
 
-        age = a;
+        this.age = age;
         name = b;
 
     }

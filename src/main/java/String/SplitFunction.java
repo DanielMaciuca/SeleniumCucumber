@@ -1,6 +1,6 @@
 package String;
 
-public class StringFunctions {
+public class SplitFunction {
 
     public static void main(String[] args) {
 
@@ -19,6 +19,8 @@ public class StringFunctions {
         System.out.println(space[0]);
 
         System.out.println(space[1]);
+
+        System.out.println(space[2]);
 
     }
 
