@@ -6,7 +6,7 @@ public class RealHashMapExample {
 
     public static String STATUS;
 
-    public static String DATE = "date";
+    public static String DATE = "date2";
 
     public static void main(String[] args) {
 
