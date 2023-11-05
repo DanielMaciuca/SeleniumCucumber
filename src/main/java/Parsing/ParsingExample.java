@@ -1,11 +1,10 @@
 package Parsing;
 
-import java.util.HashMap;
-
 public class ParsingExample {
     public static void main(String[] args) {
 
 //Converting a String to an int
+
         String s = "102";
 
         System.out.println(s + 4);

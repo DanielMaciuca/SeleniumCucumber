@@ -9,7 +9,7 @@ public class Main {
 
         DemoConstructor person = new DemoConstructor(38, "Daniel");
 
-        System.out.println(person.age + person.name);
+        System.out.println(person.age + " " + person.name);
 
     }
 }
