@@ -20,6 +20,7 @@ public class RealHashMapExample {
 
         happy.put("connection", connection);
         happy.put(STATUS, "Enable Connection");
+        happy.put(DATE, DATE);
 
         System.out.println(happy.get("connection"));
         System.out.println(happy.get(STATUS));
