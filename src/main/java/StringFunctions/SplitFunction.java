@@ -1,4 +1,4 @@
-package String;
+package StringFunctions;
 
 public class SplitFunction {
 
