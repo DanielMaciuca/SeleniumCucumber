@@ -8,7 +8,7 @@ public class DemoConstructor {
     DemoConstructor(int age, String b) {
 
         this.age = age;
-        name = b;
+         this.name = b;
 
     }
 
