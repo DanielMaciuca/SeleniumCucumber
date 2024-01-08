@@ -1,4 +1,4 @@
-package StringFunctions;
+package Array;
 
 public class StringReplace {
 
