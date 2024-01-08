@@ -1,13 +1,14 @@
 package Static;
 
 class StaticExample {
-    static int staticField;
+    static int staticField = 50;
 
     public static void main(String[] args) {
         StaticExample instance1 = new StaticExample();
         StaticExample instance2 = new StaticExample();
 
         // Assign different values to the static field
+
         instance1.staticField = 20;
         instance2.staticField = 10;
 
