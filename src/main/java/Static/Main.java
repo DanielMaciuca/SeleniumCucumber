@@ -7,21 +7,19 @@ public class Main {
         StaticVariables myObject1 = new StaticVariables();
         StaticVariables myObject2 = new StaticVariables();
 
-        System.out.println(StaticVariables.comun);//access using the class name -> recommended
+        System.out.println(myObject1.name + " " +  StaticVariables.age); //access to a static variable is done using the class name -> recommended
 
-        myObject1.comun = 55;
-
-        myObject2.comun = 66;
+        myObject2.age = 66;
 
         myObject2.name = "Sarpe";
 
         System.out.println(myObject1.name);
         System.out.println(myObject2.name);
         //same value is printed (66)
-        System.out.println(myObject1.comun);
-        System.out.println(myObject2.comun);
+        System.out.println(myObject1.age);
+        System.out.println(myObject2.age);
 
-        System.out.println(StaticVariables.comun);//this print 66 now
+        System.out.println(StaticVariables.age);//this print 66 now
 
 // static variables can be accessed also from an object, not recommended
 // we refer to a static field using the class name

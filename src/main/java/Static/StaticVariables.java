@@ -4,6 +4,6 @@ public class StaticVariables {
 
     String name = "Cici";
 
-     static int comun= 30;
+     static int age = 30;
 
 }
