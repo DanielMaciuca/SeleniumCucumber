@@ -22,7 +22,7 @@ public class myClass {
         // At this point we have an object called point1 and a reference variable called point2 which is pointing to the same object, point 1.
 
         point1.x = 100;
-        System.out.println(point1.x + " " + point2.x);
+        System.out.println(point1 + " " + point2);
 
     }
 }
