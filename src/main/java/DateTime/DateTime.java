@@ -10,6 +10,5 @@ public class DateTime {
 
         System.out.println(now);
 
-
     }
 }
