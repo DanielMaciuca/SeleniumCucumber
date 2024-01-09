@@ -55,6 +55,11 @@ public class StringFunctions {
         String resultAfterReplace = myReplaceString.replace("bala", "portocala");
         System.out.println(resultAfterReplace);
 
+        //Upper Case function
+
+        String myUpper = "this is only a string";
+        System.out.println(myUpper.toUpperCase());
+
     }
 
 }
