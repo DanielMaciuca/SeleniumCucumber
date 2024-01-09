@@ -8,6 +8,12 @@ public class StringFunctions {
         // String is a complex data type
         // It is actually a class that can be instantiated
 
+        // Length function
+
+        String learn = "This";
+
+        System.out.println(learn.length());
+
         //Substring function
 
         String[] date = {"17.01.1985-100", "21.02.1956-200"};
