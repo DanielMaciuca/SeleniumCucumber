@@ -60,6 +60,20 @@ public class StringFunctions {
         String myUpper = "this is only a string";
         System.out.println(myUpper.toUpperCase());
 
+        //Equal function -> How to compare two strings
+
+        String right = "Dacia";
+
+        String left = "Dacia";
+
+        if (right.equals(left)) {
+            System.out.println("The strings ARE equal");
+
+        } else {
+
+            System.out.println("The strings are NOT equal");
+
+        }
     }
 
 }
