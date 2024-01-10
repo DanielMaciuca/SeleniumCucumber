@@ -6,7 +6,7 @@ public class ArrayExample {
 
         String[] textArray = {"Prima", "a", "Doua", "a", "a", "Ultima"};
 
-        // Parcurgeți matricea și afișați fiecare element
+        //You can loop through the array elements with the for loop, use the length property to specify how many times the loop should run.
 
         for (int i = 0; i < textArray.length; i++) {
             System.out.println(textArray[i]);
@@ -33,6 +33,18 @@ public class ArrayExample {
         System.out.println( anotherExample[0] + " " +  anotherExample[1]);
 
         // Example 4 - Create another array
+
+        int[] lastExample;
+        lastExample = new int[2];
+
+        lastExample[0] = 11;
+        lastExample[1] = 22;
+
+        System.out.println(lastExample[0] = lastExample[1]);
+
+        // Example 5
+
+
 
     }
 }
