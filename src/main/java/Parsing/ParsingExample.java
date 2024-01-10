@@ -3,7 +3,7 @@ package Parsing;
 public class ParsingExample {
     public static void main(String[] args) {
 
-        //Converting a String to an int
+        //Converting a String to an int using Integer class
 
         String s = "102";
 

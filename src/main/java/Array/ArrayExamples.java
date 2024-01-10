@@ -1,7 +1,7 @@
 package Array;
 
 
-public class ArrayExample {
+public class ArrayExamples {
     public static void main(String[] args) {
 
         String[] textArray = {"Prima", "a", "Doua", "a", "a", "Ultima"};
@@ -55,7 +55,6 @@ public class ArrayExample {
         int myArray2[] = {10, 20, 30};
 
         System.out.println(myArray[0] + myArray[1] + myArray[2]);
-
     }
 }
 
