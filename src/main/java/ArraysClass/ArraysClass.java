@@ -1,8 +1,8 @@
-package Array;
+package ArraysClass;
 
 import java.util.Arrays;
 
-public class ArrayClass {
+public class ArraysClass {
 
     public static void main(String[] args) {
 
