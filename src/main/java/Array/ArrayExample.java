@@ -12,13 +12,20 @@ public class ArrayExample {
             System.out.println(textArray[i]);
         }
 
+        // Another way to loop through an array
+
+        for (String i: textArray) {
+
+            System.out.println(i);
+        }
+
         // Example 1 - Create an array reference
 
         int[] number; //This is only creating a reference that can 'hold' 3 int numbers, in Java arrays are objects
 
         // Example 2 - Empty array with 3 elements, all the elements will have the default value 0
 
-        int[]emptyArray = new int[3];
+        int[] emptyArray = new int[3];
 
         System.out.println(emptyArray[0] + " " + emptyArray[1] + " " + emptyArray[2]);
 
@@ -30,7 +37,7 @@ public class ArrayExample {
         anotherExample[1] = 20;
         anotherExample[3] = 30;
         anotherExample[4] = 40;
-        System.out.println( anotherExample[0] + " " +  anotherExample[1]);
+        System.out.println(anotherExample[0] + " " + anotherExample[1]);
 
         // Example 4 - Create another array
 
@@ -42,9 +49,13 @@ public class ArrayExample {
 
         System.out.println(lastExample[0] = lastExample[1]);
 
-        // Example 5
+        // Example 5 - you can declare an array either way
 
+        int[] myArray = {10, 20, 30};
 
+        int myArray2[] = {10, 20, 30};
+
+        System.out.println(myArray[0] + myArray[1] + myArray[2]);
 
     }
 }
