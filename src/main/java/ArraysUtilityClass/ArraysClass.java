@@ -6,6 +6,9 @@ public class ArraysClass {
 
     public static void main(String[] args) {
 
+        //In Java, the Arrays class is a utility class in the java.util package that provides various methods for manipulating arrays.
+        // This class contains static methods for sorting, searching, and filling arrays, among other operations
+
         //Example 1
 
         int[] number = {100, 200, 300};
@@ -31,12 +34,16 @@ public class ArraysClass {
 
         //Example 4 - Sort function
 
+        //Sort method is a method which is overloaded
+
         int[] unsortedArray = {101, 22, 202};
+
         System.out.println("This is the original array" + Arrays.toString(unsortedArray)) ;
 
         Arrays.sort(unsortedArray);
 
         System.out.println("This is the sorted array" + Arrays.toString(unsortedArray));
+
 
     }
 }

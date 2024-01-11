@@ -4,6 +4,10 @@ package Arrays;
 public class ArrayExamples {
     public static void main(String[] args) {
 
+        //In Java, an array is a data structure that allows you to store multiple values of the same type in a single variable.
+        // Arrays have a fixed number of elements
+        //Even the array itself is considered an object its elements can be of any type, including primitive types and objects.
+
         String[] textArray = {"Prima", "a", "Doua", "a", "a", "Ultima"};
 
         //You can loop through the array elements with the for loop, use the length property to specify how many times the loop should run.

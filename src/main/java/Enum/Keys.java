@@ -2,8 +2,9 @@ package Enum;
 
 public enum Keys {
 
-    // Elements of an enum are by default 'public static final'
-    //Are treated as constants, making them unchangeable after they are initialized
+    // Special data type that represents a fixed set of constants or values
+    // Elements of an enum are by default 'public static final' (because a constant is a variable whose value cannot change after was assigned once
+    // Are treated as constants, making them unchangeable after they are initialized
 
     //Predefined set of values
     AMOUNT("amount"),
