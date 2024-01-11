@@ -11,8 +11,6 @@ public enum Keys {
     NUMBER("number"),
     DATE("date"),
 
-    PREFUNDED("prefunded"),
-
     DB_TIMESTAMP("db_timestamp");
 
     // fields of an enum are by default 'public static final' (constants of the class)

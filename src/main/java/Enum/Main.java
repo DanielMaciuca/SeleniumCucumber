@@ -18,6 +18,7 @@ public class Main {
         System.out.println(second.getName());
 
         //this works because elements of an enum are by default 'public static final', you just need to import the element
+
         System.out.println(DB_TIMESTAMP.getName());
 
     }
