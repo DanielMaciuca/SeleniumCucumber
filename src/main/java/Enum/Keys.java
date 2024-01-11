@@ -15,10 +15,12 @@ public enum Keys {
 
     DB_TIMESTAMP("db_timestamp");
 
-    // fields of an enum are by default 'public statis final'
+    // fields of an enum are by default 'public static final' (constants of the class)
+
     final String keyName; //enums can have fields - instance variables
 
     //constructor for the enum
+
     Keys(String keyName) {
 
         this.keyName = keyName;
