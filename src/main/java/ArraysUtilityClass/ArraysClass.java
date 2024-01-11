@@ -12,8 +12,7 @@ public class ArraysClass {
 
         System.out.println(number); //returns a string which is calculated based on the address of this object
 
-
-        //Example 2
+        //Example 2 - String representation of the content of an array, allows you to actually print the elements from an array
 
         int[] numbers2 = {1, 2, 3};
 
@@ -29,6 +28,8 @@ public class ArraysClass {
         String[] secondArray = {"first", "second", "third"};
         boolean result = Arrays.equals(firstArray,secondArray);
         System.out.println(result);
+
+        //Example 4 - Sort function
 
         int[] unsortedArray = {101, 22, 202};
         System.out.println("This is the original array" + Arrays.toString(unsortedArray)) ;
