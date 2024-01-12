@@ -3,6 +3,11 @@ package Parsing;
 public class ParsingExample {
     public static void main(String[] args) {
 
+
+        //Parsing refers to the process of converting data from one FORMAT or representation to another.
+        // This often involves converting data from a string representation to a specific data type.
+        // Parsing is commonly used when dealing with user input, reading data from external sources, or working with data in different formats.
+
         //Converting a String to an int using Integer class
 
         String s = "102";
@@ -22,6 +27,16 @@ public class ParsingExample {
         System.out.println(a);
 
         System.out.println(Integer.toString(a) + 100);
+
+        //Converting a String to a double
+
+        String before = "1.1";
+
+        double after = Double.parseDouble(before);
+
+        System.out.println(after);
+
+
 
     }
 

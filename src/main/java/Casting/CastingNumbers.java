@@ -4,6 +4,8 @@ public class CastingNumbers {
 
     public static void main(String[] args) {
 
+       // Involves explicitly converting a value from one data type to another.
+
         //Widening - Implicit casting
 
         //Widening casting happens automatically by the Java compiler when there is no risk of losing information in the conversion.
@@ -32,9 +34,6 @@ public class CastingNumbers {
         double firstExpNumber = 1.1;
         int secondExpNumber = (int) firstExpNumber + 2;
         System.out.println(firstExpNumber + " " + secondExpNumber);
-
-
-
 
     }
 }
