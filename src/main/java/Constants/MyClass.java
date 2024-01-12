@@ -1,6 +1,6 @@
 package Constants;
 
-public class myClass {
+public class MyClass {
 
     public static void main(String[] args) {
 
