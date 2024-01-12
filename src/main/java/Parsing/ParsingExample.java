@@ -36,7 +36,19 @@ public class ParsingExample {
 
         System.out.println(after);
 
+        //Converting a double to a String
 
+        double y = 32.1;
+
+        y = y + 1;
+
+        System.out.println(y);
+
+        String z = Double.toString(y);
+
+        z = z + 1; // this actually concatenates the values
+
+        System.out.println(z);
 
     }
 
