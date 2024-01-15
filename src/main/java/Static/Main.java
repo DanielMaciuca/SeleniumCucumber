@@ -22,9 +22,9 @@ public class Main {
         System.out.println(myObject2.age);
         System.out.println(StaticVariables.age); //this prints 66 now
 
-// static variables can be accessed also from an object, not recommended
-// we refer to a static field using the class name
-// the idea is NOT to create objects for static but to have a shared value
+        // static variables can be accessed also from an object, not recommended
+        // we refer to a static field using the class name
+        // the idea is NOT to create objects for static fields/method, but to have a shared value
 
     }
 

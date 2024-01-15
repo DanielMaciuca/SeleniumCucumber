@@ -7,7 +7,7 @@ public class ArraysClass {
     public static void main(String[] args) {
 
         //In Java, the Arrays class is a utility class in the java.util package that provides various methods for manipulating arrays.
-        // This class contains static methods for sorting, searching, and filling arrays, among other operations
+        // This class contains STATIC methods for sorting, searching, and filling arrays, among other operations
 
         //Example 1
 

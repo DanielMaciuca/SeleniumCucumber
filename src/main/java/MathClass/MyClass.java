@@ -22,7 +22,24 @@ public class MyClass {
 
         System.out.println(c);
 
+        // max function
 
+        double d = Math.max(1.1,1.2);
+
+        System.out.println(d);
+
+
+        int e = Math.max(2,3);
+
+        System.out.println(e);
+
+        // random function
+
+        int  f = (int) Math.round(Math.random() * 100);
+
+        int  g = (int) (Math.random() * 100);
+
+        System.out.println(f + " " + g);
 
     }
 
