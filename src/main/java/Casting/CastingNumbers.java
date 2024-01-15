@@ -4,7 +4,8 @@ public class CastingNumbers {
 
     public static void main(String[] args) {
 
-       // Involves explicitly converting a value from one data type to another.
+        // Involves explicitly converting a value from one data type to another.
+        //Commonly used when converting between primitive data types
 
         //Widening - Implicit casting
 
@@ -21,7 +22,7 @@ public class CastingNumbers {
         System.out.println(x + " " + y);
 
         double firstNumber = 1.1;
-        double secondNumber = firstNumber + 2; //java will automatically cast integer 2 to 2.0, and then 2.0 will be added
+        double secondNumber = firstNumber + 2; // the java compiler will automatically cast 2 to 2.0, and then 2.0 will be added
 
         System.out.println(firstNumber + " " + secondNumber);
 

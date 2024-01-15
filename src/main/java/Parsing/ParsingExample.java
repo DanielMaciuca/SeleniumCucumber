@@ -1,10 +1,12 @@
 package Parsing;
 
+import java.text.SimpleDateFormat;
+
 public class ParsingExample {
     public static void main(String[] args) {
 
 
-        //Parsing refers to the process of converting data from one FORMAT or representation to another.
+        //Parsing refers to the process of converting data from one data FORMAT or representation to another.
         // This often involves converting data from a string representation to a specific data type.
         // Parsing is commonly used when dealing with user input, reading data from external sources, or working with data in different formats.
 
@@ -40,7 +42,7 @@ public class ParsingExample {
 
         double y = 32.1;
 
-        y = y + 1;
+        y = y + 1; // this actually is doing addition
 
         System.out.println(y);
 
@@ -49,6 +51,14 @@ public class ParsingExample {
         z = z + 1; // this actually concatenates the values
 
         System.out.println(z);
+
+        //String to date example -> TO BE CONTINUED
+
+        String dateString = "202.01.12";
+
+        SimpleDateFormat parsedDate = new SimpleDateFormat();
+
+
 
     }
 
