@@ -1,11 +1,11 @@
 package Constructors;
 
-public class DemoConstructor {
+public class Persons {
 
     int age;
     String name;
 
-    DemoConstructor(int age, String b) {
+    public Persons(int age, String b) {
 
         this.age = age;
          this.name = b;

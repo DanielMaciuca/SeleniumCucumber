@@ -15,5 +15,11 @@ public class MyClass {
 
         System.out.println(result);
 
+        // Returns an instance of the NumberFormat class specialised as formating number as a procent
+
+        String resultPercent = NumberFormat.getPercentInstance().format(0.12); //method chaining
+
+        System.out.println(resultPercent);
+
     }
 }
