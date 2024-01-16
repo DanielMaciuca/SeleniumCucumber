@@ -4,7 +4,7 @@ public class CastingNumbers {
 
     public static void main(String[] args) {
 
-        // Involves explicitly converting a value from one data type to another.
+        // Involves explicitly converting a value from one primitive data type to another primitive data type.
         //Commonly used when converting between primitive data types
 
         //Widening - Implicit casting
