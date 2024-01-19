@@ -22,7 +22,7 @@ public enum EnumColors {
 
     public static void main(String[] args) {
 
-        EnumColors firstElemnetnet = EnumColors.RED; // create an enum instance
+        EnumColors firstElemnetnet = EnumColors.RED; // create an enum instance without the new keyword
 
         System.out.println(firstElemnetnet);
 

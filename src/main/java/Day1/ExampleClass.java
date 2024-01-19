@@ -1,4 +1,4 @@
-package Learning;
+package Day1;
 
 public class ExampleClass {
 

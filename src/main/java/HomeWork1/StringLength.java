@@ -1,6 +1,6 @@
 package HomeWork1;
 
-public class MyClass {
+public class StringLength {
 
     public static void main(String[] args) {
 
