@@ -6,7 +6,6 @@ public class MyClass {
 
         // Math class can be used for different numeric operations
 
-
         // round function
         int a = Math.round(1.4F);
 
