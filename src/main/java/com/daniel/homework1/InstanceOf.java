@@ -1,4 +1,4 @@
-package HomeWork1;
+package com.daniel.homework1;
 
 //InstanceOf operator used to test whether the object is an instance of the specified type (class or subclass or interface).
 

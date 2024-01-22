@@ -1,4 +1,4 @@
-package HomeWork1;
+package com.daniel.homework1;
 
 public class StringsExample {
 
