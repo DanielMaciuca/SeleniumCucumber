@@ -16,7 +16,7 @@ public class InstanceOf {
 
         InstanceOf myObject = new InstanceOf();
 
-        if (myObject instanceof Animal) { //if I use other classes I get the type mismatch - to be investigatd
+        if (myObject instanceof Animal) { //if I use other classes I get the type mismatch - to be investigated
 
             System.out.println("This object is an instance of the specified class");
 

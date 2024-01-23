@@ -10,7 +10,33 @@ public class LogicalOperators {
 
         int x = 10;
 
-        boolean y = x > 10 && x < 10;
+        int y = 20;
+
+        boolean result = x <= 10 && y <= 19;
+
+        System.out.println(result);
+
+        int temperature = 10;
+
+        boolean warmth = temperature > 22 && temperature < 30;
+
+        System.out.println(warmth);
+
+        boolean hasHighIncome = true;
+
+        boolean hasGoodScore = false;
+
+        boolean hasCriminalRecord = false;
+
+        boolean isEligible = (hasGoodScore || hasHighIncome) && !hasCriminalRecord;
+
+        System.out.println(isEligible);
+
+        boolean example = true;
+
+        System.out.println(example);
+
+        System.out.println(!example);
 
     }
 }

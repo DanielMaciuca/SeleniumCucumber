@@ -28,7 +28,6 @@ public enum EnumColors {
 
         EnumColors.displayEnum();
 
-
     }
 }
 

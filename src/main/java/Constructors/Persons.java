@@ -8,7 +8,8 @@ public class Persons {
     public Persons(int age, String b) {
 
         this.age = age;
-         this.name = b;
+
+        this.name = b;
 
     }
 
