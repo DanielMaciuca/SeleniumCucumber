@@ -22,7 +22,7 @@ public class Example {
         // Once a true condition is found the next conditions are skipped and the associated blocks will not be executed
         // If all the condition are false then the last else condition is executed
 
-        int x = 100;
+        int x = 55;
 
         if (x > 110) {
             System.out.println("Number is greater than 120");
