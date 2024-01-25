@@ -6,5 +6,9 @@ public class First {
 
     int b = 10;
 
+    public static void main(String[] args) {
+
+    }
+
 
 }

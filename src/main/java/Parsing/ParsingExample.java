@@ -6,12 +6,15 @@ public class ParsingExample {
     public static void main(String[] args) {
 
 
-        //Parsing refers to the process of converting data from one data FORMAT or representation to another.
+        // Parsing refers to the process of converting data from one data FORMAT or representation to another.
         // This often involves converting data from a string representation to a specific data type.
         // Parsing is commonly used when dealing with user input, reading data from external sources, or working with data in different formats.
 
-        //Converting a String to an int using Integer class
+        // Converting a String to an int using Integer class.
 
+        // toString method is a static method of the Integer class.
+        // toString method is not a method of the Integer class itself, it is inherited from the Object class, which is the root class for all Java classes.
+        // The Integer class overrides this method to provide a specific implementation.
         String s = "102";
 
         System.out.println(s + 4);

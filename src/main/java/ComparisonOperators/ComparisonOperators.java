@@ -20,7 +20,5 @@ public class ComparisonOperators {
 
         System.out.println(result);
 
-
-
     }
 }
