@@ -13,7 +13,7 @@ public class Example {
             System.out.println("Valoare lui i este " + i + "");
         }
 
-        // Backwards
+        // Looping backwards
 
         for (int i = 5; i >= 1; i--) {
 
