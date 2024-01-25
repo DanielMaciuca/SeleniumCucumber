@@ -16,7 +16,7 @@ public class MyClass {
         String s2 = "Cat";
 
         // Explicitly creates a new String object, regardless of whether "Cat" is already in the pool
-        // It saves memory because it is NOT creating a new abject each and every time
+        // It saves memory because it is NOT creating a new object each and every time
 
         String s3 = new String("Cat");
 
@@ -32,7 +32,6 @@ public class MyClass {
 
             System.out.println("Values are not equal");
         }
-
 
     }
 }

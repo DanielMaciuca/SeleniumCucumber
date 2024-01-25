@@ -3,6 +3,8 @@ package Loops.For;
 public class Example {
     public static void main(String[] args) {
 
+        // We use for when we know ahead of time how many times we want the statements to be executed
+
         for (int i = 1; i <= 5; i++) {
             System.out.println("Valoare lui i este " + i + "");
         }
