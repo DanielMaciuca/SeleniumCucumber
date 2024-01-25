@@ -16,7 +16,7 @@ public class ArrayExamples {
             System.out.println(textArray[i]);
         }
 
-        // Another way to loop through an ar
+        // Another way to loop through an array
         for (String i: textArray) {
 
             System.out.println(i);
