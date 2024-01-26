@@ -5,11 +5,11 @@ public class Persons {
     int age;
     String name;
 
-    public Persons(int age, String b) {
+    public Persons(int age, String name) {
 
         this.age = age;
 
-        this.name = b;
+        this.name = name;
 
     }
 
