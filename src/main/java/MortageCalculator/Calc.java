@@ -10,17 +10,28 @@ public class Calc {
         final byte MONTHS_IN_YEAR = 12; //constant
         final byte PERCENT = 100;
 
-        System.out.print("Principal: ");
-
         Scanner scanner = new Scanner(System.in);
 
-        int principal = scanner.nextInt();
+        int principal = 0;
 
-        System.out.print("Annual Interest Rate: ");
+        while (true) {
+            System.out.print("Principal: ");
+            principal = scanner.nextInt();
+            if (principal >= 1000 && principal <= 1000000)
+                break;
+        }
 
-        float annualInterest = scanner.nextFloat();
+        float monthlyInterest = 0;
 
-        float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
+        while (true) {
+            System.out.print("Annual Interest Rate: ");
+            float annualInterest = scanner.nextFloat();
+            if (annualInterest >= 1 && annualInterest <= 30){
+            monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
+                break;
+            }
+            System.out.println("Enter a value between 1 and 30");
+        }
 
         System.out.println("Period (Years)");
 
