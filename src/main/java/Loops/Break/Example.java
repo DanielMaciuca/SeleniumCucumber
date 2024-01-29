@@ -17,7 +17,8 @@ public class Example {
                 break;
             }
 
-            i++;
+            i++;// this is not executed when i = 3 and the loop was broke
+            System.out.println("Still inside the loop, the loop will continue until the condition is true" + " " + i);
         }
 
         System.out.println("Outside of the loop");
