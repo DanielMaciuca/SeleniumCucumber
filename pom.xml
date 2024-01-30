@@ -48,7 +48,7 @@
                 <configuration>
                     <includes>
                         <include>**/*TestRunner</include>
-                        <include>**/*cevaTry</include>
+                        <include>**/*justAClass</include>
                     </includes>
                 </configuration>
             </plugin>
