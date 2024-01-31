@@ -43,5 +43,5 @@ public class Example {
 
         System.out.println("Test was failed, screenshot make");
 
-    }
-}
+    }}
+
