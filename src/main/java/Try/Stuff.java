@@ -1,15 +1,25 @@
 package Try;
 
 public class Stuff {
+    int a;
 
     public static void main(String[] args) {
 
-        int x = 1;
-        int y = 2;
-        x = y;
+        Stuff object1 = new Stuff();
 
-        System.out.println( x + " " + y);
+        int result = object1.myMethod(122);
 
+        System.out.println(result);
+
+    }
+
+    public int myMethod(int number) {
+
+        a = 55;
+
+        int result = number + a;
+
+        return result;
 
     }
 }
