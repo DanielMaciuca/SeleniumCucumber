@@ -1,4 +1,4 @@
-
+@Run
 Feature: second
   Scenario: Get login 1
     Given User is on page
