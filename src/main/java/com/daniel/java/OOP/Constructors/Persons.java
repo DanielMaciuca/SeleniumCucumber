@@ -10,6 +10,7 @@ public class Persons {
         this.name = name;
     }
 
+    // Second constructor using Overloading (different argument types or different number of arguments)
     public Persons(int age, int name) {
         System.out.println("This is a second constructor" + " " + age + " " + name);
         this.age = age;
