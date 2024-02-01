@@ -1,4 +1,4 @@
-package concepts.stuff;
+package TestClasses;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,6 +9,8 @@ public class justAClass {
     public void myMethod() {
 
         System.out.println("FIRST MESSAGE");
+
+
 
 //        driver.close();
     }

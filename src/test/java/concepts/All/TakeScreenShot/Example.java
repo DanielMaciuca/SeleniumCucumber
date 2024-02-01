@@ -1,4 +1,4 @@
-package concepts.TakeScreenShot;
+package concepts.All.TakeScreenShot;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
@@ -33,7 +33,7 @@ public class Example {
 
         try {
 
-            FileUtils.copyFile(fileSource, new File("./screenshots/"+ timeStamp + ".png" ));
+            FileUtils.copyFile(fileSource, new File("src/main/resources/screenshots/"+ timeStamp + ".png" ));
         }
 
         catch (IOException e) {
