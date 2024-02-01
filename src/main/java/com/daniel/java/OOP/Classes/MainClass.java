@@ -4,12 +4,12 @@ public class MainClass {
 
     public static void main(String[] args) {
 
-      Animals cat = new Animals("cocos", 10);
+      Animal animal = new Animal("cocos", 10);
 
-        System.out.println(cat.age);
-        System.out.println(cat.name);
+        System.out.println(animal.age);
+        System.out.println(animal.name);
 
-        cat.bark();
+        animal.makeSound();
 
     }
 }

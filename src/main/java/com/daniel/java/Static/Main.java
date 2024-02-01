@@ -10,7 +10,6 @@ public class Main {
         System.out.println(myObject1.name + " " + StaticVariables.age); //access to a static variable is done using the class name -> recommended
 
         myObject2.age = 66;
-
         myObject2.name = "Sarpe";
 
         System.out.println(myObject1.name);

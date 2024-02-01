@@ -1,16 +1,16 @@
 package com.daniel.java.OOP.Classes;
 
-public class Animals {
+public class Animal {
 
     String name = "kiki";
     int age = 1;
 
-    public Animals(String name, int age) {
+    public Animal(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public void bark() {
-        System.out.println("This is only a method");
+    public void makeSound() {
+        System.out.println("VVVVRAAAAAA");
     }
 }
