@@ -1,4 +1,4 @@
-package com.daniel.java.Abstraction;
+package com.daniel.java.OOP.Abstraction;
 
 abstract public class MyAbstractClass {
 

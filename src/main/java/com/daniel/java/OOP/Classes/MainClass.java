@@ -9,7 +9,7 @@ public class MainClass {
         System.out.println(cat.age);
         System.out.println(cat.name);
 
-        cat.firstMethod();
+        cat.bark();
 
     }
 }

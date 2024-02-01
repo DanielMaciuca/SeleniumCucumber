@@ -10,8 +10,7 @@ public class Animals {
         this.age = age;
     }
 
-    public void firstMethod() {
-
+    public void bark() {
         System.out.println("This is only a method");
     }
 }
