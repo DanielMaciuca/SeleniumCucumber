@@ -1,6 +1,6 @@
-package junit.stuff;
+package concepts.stuff;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class justAClass {
 
