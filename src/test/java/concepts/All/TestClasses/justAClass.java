@@ -1,5 +1,6 @@
 package concepts.All.TestClasses;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class justAClass {
@@ -10,7 +11,10 @@ public class justAClass {
 
         System.out.println("FIRST MESSAGE");
 
+        String actualResult = "test2";
+        String expectedResult = "test2";
 
+        Assertions.assertEquals(actualResult,expectedResult);
 
 //        driver.close();
     }
