@@ -8,8 +8,13 @@ public class MainClass {
 
         System.out.println(animal.age);
         System.out.println(animal.name);
-
         animal.makeSound();
+
+        Dog daisy = new Dog ("daisy");
+        daisy.makeSound();
+
+        Dog rex = new Dog("rex");
+        rex.makeSound();
 
     }
 }
