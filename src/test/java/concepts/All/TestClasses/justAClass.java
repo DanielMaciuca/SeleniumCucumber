@@ -1,4 +1,4 @@
-package TestClasses;
+package concepts.All.TestClasses;
 
 import org.junit.jupiter.api.Test;
 
