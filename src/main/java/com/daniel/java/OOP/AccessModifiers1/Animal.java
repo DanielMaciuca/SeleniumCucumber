@@ -1,4 +1,4 @@
-package com.daniel.java.OOP.AccessModifiers;
+package com.daniel.java.OOP.AccessModifiers1;
 
 public class Animal {
 
@@ -15,11 +15,7 @@ public class Animal {
         System.out.println("Animal" + " " + name.toUpperCase() + " " + "makes a big sound");
     }
 
-    public void eat(String name, int age, String color){
-
-        this.name = name;
-        this.age = age;
-        System.out.println(name + age + color);
+    public void eat(String name, int age){
 
     }
 }

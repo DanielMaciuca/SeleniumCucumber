@@ -1,4 +1,4 @@
-package com.daniel.java.OOP.AccessModifiers;
+package com.daniel.java.OOP.AccessModifiers1;
 
 public class AnotherClass {
 
