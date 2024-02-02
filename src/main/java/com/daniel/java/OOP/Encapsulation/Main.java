@@ -8,9 +8,12 @@ public class Main {
 
         System.out.println(firstDog.getName());
 
-        firstDog.setName("NewDaisyName");
+        firstDog.setName("DaisyUpdated");
 
         System.out.println(firstDog.getName());
+
     }
 
 }
+
+

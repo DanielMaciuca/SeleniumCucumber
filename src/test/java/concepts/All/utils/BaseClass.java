@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BaseClass {
 
+    protected WebDriver driver;
+
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
 
@@ -16,4 +18,6 @@ public class BaseClass {
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://www.amazon.com/");
     }
+
+
 }

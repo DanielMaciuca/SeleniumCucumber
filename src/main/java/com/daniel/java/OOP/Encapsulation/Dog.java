@@ -16,7 +16,7 @@ public class Dog {
     }
 
     public void makeSound() {
-        System.out.println("Bark");
+        System.out.println("Bark" + " " + name.toUpperCase());
     }
 
     public void setName(String name) {
