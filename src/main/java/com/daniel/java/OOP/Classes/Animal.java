@@ -2,8 +2,8 @@ package com.daniel.java.OOP.Classes;
 
 public class Animal {
 
-    String name = "kiki";
-    int age = 1;
+    public String name = "kiki";
+    public int age = 1;
 
     public Animal(String name, int age) {
         this.name = name;
