@@ -11,6 +11,7 @@ public class BaseClass2 {
     // Static WebDriver for shared browser session
     protected static WebDriver driver;
 
+    // The methods from @BeforeAll needs to be static (requirement from junit, not testng)
     @BeforeAll
     public static void setUp() {
         if (driver == null) {
