@@ -9,6 +9,7 @@ public class Dog extends Animal {
         this.breed = breed;
     }
 
+
     public void eat() {
         System.out.println("Dog is eating");
     }
