@@ -19,10 +19,12 @@ public class Dog {
         System.out.println("Bark" + " " + name.toUpperCase());
     }
 
+    //Setter method
     public void setName(String name) {
         this.name = name;
     }
 
+    //Getter method
     public String getName() {
         return name;
     }

@@ -2,7 +2,6 @@ package com.daniel.java.StringFunctions;
 
 public class StringFunctions {
 
-
     public static void main(String[] args) {
 
         // String is a complex data type

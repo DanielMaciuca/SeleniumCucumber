@@ -1,4 +1,4 @@
-package com.daniel.java.Static;
+package com.daniel.java.OOP.Static;
 
 class StaticExample {
     static int staticField = 50;

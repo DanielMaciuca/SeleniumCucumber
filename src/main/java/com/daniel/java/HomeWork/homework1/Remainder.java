@@ -1,4 +1,4 @@
-package com.daniel.java.homework1;
+package com.daniel.java.HomeWork.homework1;
 
 public class Remainder {
 

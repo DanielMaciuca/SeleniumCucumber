@@ -1,4 +1,4 @@
-package com.daniel.java.Static;
+package com.daniel.java.OOP.Static;
 
 public class StaticVariables {
     String name = "Cici";

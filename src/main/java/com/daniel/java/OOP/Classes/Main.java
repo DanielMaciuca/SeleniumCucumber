@@ -1,6 +1,6 @@
 package com.daniel.java.OOP.Classes;
 
-public class MainClass {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -8,9 +8,11 @@ public class MainClass {
 
         System.out.println(fistAnimal.name + " " + fistAnimal.age);
 
+        String nameUpdated = fistAnimal.name = "gaina updatata";
+
         int ageUpdated = fistAnimal.age = 20; //update the age attribute
 
-        System.out.println(ageUpdated);
+        System.out.println( nameUpdated + " " + ageUpdated);
 
       Animal secondAnimal = new Animal("cocos", 10);
 
