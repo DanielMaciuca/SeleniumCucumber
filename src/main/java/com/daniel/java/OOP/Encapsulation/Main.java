@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // here we are creating a new object with default values using a constructor
+        // here we are creating a new object with default values, using a constructor
         Dog daisy = new Dog("Daisy", 5);
         System.out.println(daisy.getName() + " " + daisy.getAge());
 

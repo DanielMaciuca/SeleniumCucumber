@@ -13,7 +13,8 @@ public class Main {
         System.out.println(firstAnimal.name + " " + firstAnimal.age);
         System.out.println(secondAnimal.name + " " + secondAnimal.age);
 
-        // updating the attributes of firstAnimal object
+        // updating the attributes of the firstAnimal object
+
         firstAnimal.name = "First Animal Name Update";
         firstAnimal.age = 100;
         System.out.println(firstAnimal.name + " " + firstAnimal.age);
@@ -32,7 +33,7 @@ public class Main {
         Dog rex = new Dog("rex", 10); // create another object with default attributes
         rex.makeSound();
 
-        // this is not respecting encapsulation principle, anyone can create an object and update its attributes
+        // this is NOT respecting encapsulation principle, anyone can create an object and update its attributes
         daisy.name = "DaisyUpdated"; // update the name attribute using the object
         daisy.age = 7; // update the age attribute using the object
         System.out.println(daisy.name + daisy.age);

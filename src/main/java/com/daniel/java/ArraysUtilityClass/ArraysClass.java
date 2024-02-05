@@ -44,6 +44,5 @@ public class ArraysClass {
 
         System.out.println("This is the sorted array" + Arrays.toString(unsortedArray));
 
-
     }
 }
