@@ -8,13 +8,15 @@ public class Main {
         Dog daisy = new Dog("Daisy", 5);
         System.out.println(daisy.getName() + " " + daisy.getAge());
 
-        // here we update the name and age values of the object using setter methods
+        // here we update the name and age values of the object using setter methods and NOT directly using the attribute
         // In this way, we are respecting encapsulation principle
+
         daisy.setName("DaisyUpdated");
         daisy.setAge(12);
 
         // here we are accessing the name and age values using getter methods
         // In this way, we are respecting encapsulation principle
+
         System.out.println(daisy.getName() + " " + daisy.getAge());
 
         // cannot be set using an object,because name and age are private -> encapsulation respected
