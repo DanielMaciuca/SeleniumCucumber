@@ -3,6 +3,10 @@ package com.daniel.java.OOP.Static;
 public class Mobile {
     String brand;
     int price;
-    String network;
+    static String name;
+
+    public void show() {
+        System.out.println(brand + " " + price + " " + name);
+    }
 
 }
