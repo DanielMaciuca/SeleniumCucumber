@@ -2,10 +2,10 @@ package concepts.All.utils;
 
 import org.junit.jupiter.api.Test;
 
-public class mainTest extends BaseClass2{
+public class mainTest extends BaseClass2 {
 
     @Test
-public void go()  {
+    public void go() {
 
         pomClassPage1 first = new pomClassPage1();
 

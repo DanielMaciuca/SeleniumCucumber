@@ -70,7 +70,6 @@
                 <configuration>
                     <includes>
                         <include>**/*TestRunner</include>
-                        <include>**/*justAClass</include>
                     </includes>
                 </configuration>
             </plugin>

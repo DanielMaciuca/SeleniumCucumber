@@ -13,8 +13,9 @@ public class ParsingExample {
         // Converting a String to an int using Integer class.
 
         // toString method is a static method of the Integer class.
-        // toString method is not a method of the Integer class itself, it is inherited from the Object class, which is the root class for all Java classes.
+        // ???toString method is not a method of the Integer class itself, it is inherited from the Object class, which is the root class for all Java classes.
         // The Integer class overrides this method to provide a specific implementation.
+
         String s = "102";
 
         System.out.println(s + 4);
