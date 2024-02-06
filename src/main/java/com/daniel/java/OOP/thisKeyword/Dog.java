@@ -12,6 +12,8 @@ public class Dog {
 
     // with this.keyword we can make a difference between 'local' variable name (which is sent as a parameter for the function) and 'instance variable' name, from the top of the class
     // if you remove this., the variable name will assign the value to itself, because java will interpret both 'name' variables as 'local' variables
+
+
     public void setName(String name) {
         this.name = name;
     }

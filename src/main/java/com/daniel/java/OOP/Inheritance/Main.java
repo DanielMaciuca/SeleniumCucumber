@@ -4,17 +4,22 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // parent
+
+        Animal firstAnimal = new Animal("Animal1", 123);
+
+        System.out.println(firstAnimal.name + firstAnimal.age);
+
+        //child
+
         Dog firstDog = new Dog("Nicu", 10, "marspuian");
 
         System.out.println(firstDog.name + firstDog.age + firstDog.breed);
 
-        Animal aaa = new Animal("Animal1", 123);
 
-        System.out.println(aaa.name + aaa.age);
+        //++++++++++++++++++++++++++++++
 
-//++++++++++++++++++++++++++++++
-
-        // field / instance variables from parent class Animal
+        // object of child class Dog calls a Field / Instance variables from Parent class Animal
         int ageResult = firstDog.age;
         String nameResult =  firstDog.name;
 
@@ -23,9 +28,15 @@ public class Main {
         //object of type Dog calls a method from the Parent class Animal
         firstDog.animalMakeSound();
 
-        // eat() method from parent Animal class is overridden in child Dog class.
+        // specific method of child class Dog
+
+        firstDog.specificDogMethod();
+
+        // eat() method from parent Animal class is Overridden in child Dog class.
         // java knows what version of eat() method to execute depending on the object that is calling the method, in this case the version from child Dog class
         firstDog.eat();
+
+
 
 
     }
