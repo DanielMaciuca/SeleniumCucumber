@@ -12,6 +12,7 @@ public class Dog extends Animal {
 
 //     Every constructor in java has super() method, even if we don't see it
 //     super() means that you call the constructor of the superclass
+//     this() means that you call the constructor of the current class
 //     This actually means that when you create an object of child class -> its own constructor is called (which has method super (), of course it is executed) -> the constructor of the superclass is called
 //     Every time when we create an object of a class, it will call the constructor of its class but ALSO the constructor of the superclass
 
