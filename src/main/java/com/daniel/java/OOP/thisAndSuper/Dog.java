@@ -24,6 +24,8 @@ public class Dog extends Animal {
     public Dog(int age) {
 //      super();
         super(age);
+// this().executes the constructor of the same class, the one above
+//       this();
         System.out.println("Second Constructor of the Dog child class");
     }
 }
