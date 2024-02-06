@@ -16,6 +16,9 @@ public class Dog extends Animal {
 
     String breed;
 
+    // Every time when we create an object of a class will call the constructor of its class but ALSO the constructor of the superclass
+    // Every constructor in Java has a method, even if we don't see it, this method is super()
+    // super() means that you call the constructor of the super class
     //Because the parent class Animal has an explicit constructor, the child class Dog needs a matching constructor as well
 
     public Dog(String name, int age, String breed) {
@@ -34,7 +37,7 @@ public class Dog extends Animal {
     
     public void methodDemonstrateAccess(){
 
-        //You can access field and methods in a random method, the same you as you do in the public static void main() method
+        //You can access field and methods in a random method, the same you as you do in the 'public static void main()' method
         
         String a = this.name; // parent
         int b = this.age; // parent
@@ -44,8 +47,7 @@ public class Dog extends Animal {
         insideAnotherMethodAnimal.animalMakeSound();
 
         Dog insideAnotherMethodAnimalDog = new Dog("Max", 10, "woolf");
-
-        insideAnotherMethodAnimalDog.animalMakeSound();
+        insideAnotherMethodAnimalDog.animalMakeSound(); //parent method
                 
     }
 }

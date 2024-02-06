@@ -36,6 +36,9 @@ public class Main {
         // java knows what version of eat() method to execute depending on the object that is calling the method, in this case the version from child Dog class
         firstDog.eat();
 
+        // eat() version from the Animal class
+        firstAnimal.eat();
+
 
 
 
