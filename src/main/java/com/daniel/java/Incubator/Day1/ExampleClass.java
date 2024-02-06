@@ -1,4 +1,4 @@
-package com.daniel.java.Day1;
+package com.daniel.java.Incubator.Day1;
 
 public class ExampleClass {
 

@@ -15,6 +15,7 @@ public class StepDef {
     public void user_is_on_page() {
         System.out.println("Test1");
     }
+
     @Then("User click")
     public void user_click() {
         System.out.println("Test2");
@@ -72,6 +73,6 @@ public class StepDef {
     @Given("check if <{int}> equal <{int}>")
     public void checkIfEqual(int arg0, int arg1) {
 
-        assertEquals(arg0,arg1);
+        assertEquals(arg0, arg1);
     }
 }

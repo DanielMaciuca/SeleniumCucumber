@@ -39,7 +39,11 @@ public class Main {
         // eat() version from the Animal class
         firstAnimal.eat();
 
+        // instanceof operator shows if an object is an instance of a specific class or the parent class
 
+        System.out.println(firstAnimal instanceof Dog);
+        System.out.println(firstAnimal instanceof Animal);
+        System.out.println(firstAnimal instanceof Object);
 
 
     }
