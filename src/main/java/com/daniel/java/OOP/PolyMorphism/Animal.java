@@ -32,9 +32,11 @@ public class Animal {
         System.out.println("Animal makes a sound");
     }
 
-    public void eat(){
+    public void eat( String food){
 
-        System.out.println("Animal eats");
+        food = "anything";
+
+        System.out.println("Animal eats" + food);
 
     }
 }
