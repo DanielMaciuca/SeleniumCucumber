@@ -17,8 +17,14 @@ public class Cat extends Animal {
         this.fur = fur;
     }
 
-    public void specificCat(){
+    public void specificCatMethod(){
 
         System.out.println("Method that is specific to Cat class");
+    }
+
+    public void eat(String food){
+
+        System.out.println("Cat eats" + " " + food);
+
     }
 }

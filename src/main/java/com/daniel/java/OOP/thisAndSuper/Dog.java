@@ -15,6 +15,7 @@ public class Dog extends Animal {
 //     super() means that you call the constructor of the superclass
 //     this() means that you call the constructor of the current class
 //     This actually means that when you create an object of child class -> its own constructor is called (which has method super () included but not visible, the method is executed) -> the constructor of the superclass is called
+//     I think super() mechanism applies only if the constructor of the parent calls in not implicit or not default -> if parent class constructor has parameters, the child constructor needs to have parameters as well because super() needs to have parameters
 
     public Dog() {
 //      super(5);

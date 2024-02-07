@@ -17,15 +17,15 @@ public class Dog  extends Animal{
         this.breed = breed;
     }
 
-    // method overridden from Animal class
-    public void eat( String food){
-        food = "meat";
-        System.out.println("Dog eats" + food);
-    }
-
-    public void specificDog(){
+    public void specificDogMethod(){
 
         System.out.println("Method that is specific to Dog class");
 
+    }
+    // method overridden from Animal class
+
+    public void eat(String food){
+
+        System.out.println("Dog eats" + " " + food);
     }
 }
