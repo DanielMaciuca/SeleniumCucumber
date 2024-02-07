@@ -69,10 +69,7 @@ public class StringFunctions {
             System.out.println("The strings ARE equal");
 
         } else {
-
             System.out.println("The strings are NOT equal");
-
         }
     }
-
 }

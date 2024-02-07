@@ -45,7 +45,6 @@ public class Main {
         System.out.println(firstAnimal instanceof Animal);
         System.out.println(firstAnimal instanceof Object);
 
-
     }
 
 }

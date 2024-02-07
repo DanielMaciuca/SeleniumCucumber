@@ -1,4 +1,4 @@
-package com.daniel.java.Incubator.homework1;
+package com.daniel.java.IncubatorEndv.homework1;
 
 //InstanceOf operator used to test whether the object is an instance of the specified type (class or subclass or interface).
 
