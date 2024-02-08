@@ -1,4 +1,4 @@
-package com.daniel.java.OOP.PolyMorphism;
+package com.daniel.java.OOP.PolyMorphism.Example2;
 
 public class MainEnemy {
 
