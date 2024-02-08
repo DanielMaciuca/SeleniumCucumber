@@ -73,6 +73,7 @@ public class Main {
         Dog lastDog = new Dog("LastDog", 5, "aaa");
         Cat lastCat = new Cat("LastCat", 5, "bbb");
 
+        // Runs the specific implementation of the overridden eat() method, depending on the object's type
         Animal lastAnimal[] ={lastDog, lastCat};
         lastAnimal[0].eat("last dog food");
         lastAnimal[1].eat("last cat food");
