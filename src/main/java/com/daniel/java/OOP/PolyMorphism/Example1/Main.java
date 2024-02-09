@@ -4,6 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // Polymorphism
+        // 1. Methods can have multiple forms -> overridden
+        // 2. But also the objects can have multiple forms -> Animal can be Dog or Cat
+        // 4. Animal animalOne = new Cat();
+        // 5. If a method is overridden (exists in Animal and Dog) it will always call the most 'specific' version. (the one from Cat)
+        // 6. Animal animalOne -> compile time, new Cat() -> run time. At the moment of compilation you don't know what version
         Animal animal = new Animal("Max", 7);
         Dog dog = new Dog("Rex", 5, "wolf");
 
@@ -57,8 +63,8 @@ public class Main {
         animalThree.eat("dog food");
 
         // It will execute the overridden version from Cat class
-         animalThree = catThree;
-         animalThree.eat("cat food");
+        animalThree = catThree;
+        animalThree.eat("cat food");
 
         // Another example -> not Working
 
@@ -70,13 +76,27 @@ public class Main {
 
         System.out.println("ARRAY OF OBJECTS EXAMPLE");
 
-        Dog lastDog = new Dog("LastDog", 5, "aaa");
-        Cat lastCat = new Cat("LastCat", 5, "bbb");
+        Dog lastDog = new Dog("Bogdan", 5, "aaa");
+        Cat lastCat = new Cat("Ana", 5, "bbb");
 
         // Runs the specific implementation of the overridden eat() method, depending on the object's type
-        Animal lastAnimal[] ={lastDog, lastCat};
-        lastAnimal[0].eat("last dog food");
-        lastAnimal[1].eat("last cat food");
+        Animal lastAnimal[] = {lastDog, lastCat};
+        lastAnimal[0].eat("mazare");
+        lastAnimal[1].eat("cartofi");
+
+        // instanceof operator shows if an object is an instance of a specific class or the parent class
+
+        Dog newDog = new Dog("nicu", 5, "qqq");
+        Animal anotherDog = new Dog("gigel", 12, "www");
+
+        System.out.println(newDog instanceof Dog);
+        System.out.println(newDog instanceof Animal);
+        System.out.println(newDog instanceof Object);
+
+        System.out.println(anotherDog instanceof Dog); // at compile time -> anotherDog is of type Animal, at running time -> anotherDog is of type Dog (that's why this statement is working)
+
+//    System.out.println(lastAnimal instanceof Animal); // not working
+
 
     }
 }

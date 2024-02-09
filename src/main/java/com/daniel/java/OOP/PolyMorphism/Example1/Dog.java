@@ -2,7 +2,7 @@ package com.daniel.java.OOP.PolyMorphism.Example1;
 
 public class Dog  extends Animal{
 
-    String breed;
+    private String breed;
 
     public Dog(String name, int age, String breed) {
         super(name, age);
@@ -26,6 +26,6 @@ public class Dog  extends Animal{
 
     public void eat(String food){
 
-        System.out.println("Dog eats" + " " + food);
+        System.out.println(getName() + " " + "Dog eats" + " " + food);
     }
 }

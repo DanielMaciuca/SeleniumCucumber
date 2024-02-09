@@ -1,4 +1,4 @@
-package com.daniel.java.OOP.Overridding;
+package com.daniel.java.OOP.OverriddingRunTimePolyMorphism;
 
 public class AdvancedCalculator extends Calculator {
 

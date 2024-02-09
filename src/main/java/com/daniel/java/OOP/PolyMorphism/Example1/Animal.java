@@ -2,8 +2,8 @@ package com.daniel.java.OOP.PolyMorphism.Example1;
 
 public class Animal {
 
-    String name;
-    int age;
+    private String name;
+    private int age;
 
     // constructor
     public Animal(String name, int age) {
@@ -34,7 +34,7 @@ public class Animal {
 
     public void eat(String food){
 
-        System.out.println("Animal eats" + " " + food);
+        System.out.println(getName() + " " + "Animal eats" + " " + food);
 
     }
 }
