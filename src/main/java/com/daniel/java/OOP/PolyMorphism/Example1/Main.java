@@ -72,17 +72,27 @@ public class Main {
 //        Animal animalThree;
 //        animalThree = dogThree.eat("aabbcc"); -> not working
 
-        // Array of objects
+        // Collection/Array of objects - FIRST example
 
-        System.out.println("ARRAY OF OBJECTS EXAMPLE");
+        System.out.println("ARRAY OF OBJECTS FIRST EXAMPLE");
 
         Dog lastDog = new Dog("Bogdan", 5, "aaa");
         Cat lastCat = new Cat("Ana", 5, "bbb");
 
         // Runs the specific implementation of the overridden eat() method, depending on the object's type
-        Animal lastAnimal[] = {lastDog, lastCat};
-        lastAnimal[0].eat("mazare");
-        lastAnimal[1].eat("cartofi");
+        Animal Collection[] = {lastDog, lastCat};
+        Collection[0].eat("mazare");
+        Collection[1].eat("cartofi");
+
+        // Collection/Array of objects - SECOND example
+
+        System.out.println("ARRAY OF OBJECTS SECOND EXAMPLE");
+
+        Animal secondCollection[] ={new Dog("aaa", 10, "ceva"), new Dog("bbb", 11, "ceva2"), new Cat("ccc", 12, "ceva3") };
+
+        secondCollection[0].eat("dog food");
+        secondCollection[1].eat("dog food");
+        secondCollection[2].eat("cat food");
 
         // instanceof operator shows if an object is an instance of a specific class or the parent class
 
