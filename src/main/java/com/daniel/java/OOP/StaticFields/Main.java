@@ -1,4 +1,4 @@
-package com.daniel.java.OOP.Static;
+package com.daniel.java.OOP.StaticFields;
 
 public class Main {
 

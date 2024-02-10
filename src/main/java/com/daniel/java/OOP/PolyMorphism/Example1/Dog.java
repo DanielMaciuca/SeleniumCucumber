@@ -24,6 +24,7 @@ public class Dog  extends Animal{
     }
     // method overridden from Animal class
 
+    @Override
     public void eat(String food){
 
         System.out.println(getName() + " " + "Dog eats" + " " + food);

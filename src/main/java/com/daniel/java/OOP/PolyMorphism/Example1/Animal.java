@@ -32,6 +32,7 @@ public class Animal {
         System.out.println("Animal makes a sound");
     }
 
+
     public void eat(String food){
 
         System.out.println(getName() + " " + "Animal eats" + " " + food);
