@@ -1,4 +1,4 @@
-package com.daniel.java.OOP.Abstraction.AbstractClasses;
+package com.daniel.java.OOP.Abstraction.AbstractExample1;
 
 public abstract class Car {
 

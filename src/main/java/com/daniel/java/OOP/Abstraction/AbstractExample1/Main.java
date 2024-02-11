@@ -1,4 +1,4 @@
-package com.daniel.java.OOP.Abstraction.AbstractClasses;
+package com.daniel.java.OOP.Abstraction.AbstractExample1;
 
 public class Main {
 
@@ -8,10 +8,10 @@ public class Main {
     // An abstract class can have both Implemented and Not Implemented methods
     // An abstract car cannot be instantiated
     // An abstract class Can have a constructor
-    // It is Not mandatory for an Abstract class to have abstract method, it can have only normal methods
+    // It is Not mandatory for an Abstract class to have abstract method, it can have only implemented methods
     // An abstract method is a method declared without an implementation
-    // A method defined abstract must always be IMPLEMENTED (defined, written) in the subclass (concrete class), thus making overriding compulsory OR either make subclass itself abstract
-
+    // Al methods defined abstract must always be IMPLEMENTED (defined, written) in the subclass (concrete class), thus making overriding compulsory OR either make subclass itself abstract
+    // What happens if in the super class you have 2 abstract methods but you want to implement only 1 of them in the child class? Then you make the child class abstract you create another concrete class which will extend the abstract child class
     public static void main(String[] args) {
 
         // Cannot create an instance of the abstract class
