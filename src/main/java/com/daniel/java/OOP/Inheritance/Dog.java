@@ -13,6 +13,7 @@ public class Dog extends Animal {
     //4.4 public is always inherited
     //5. If the parent class has a parametrized constructor the child class needs a matching one
     //6. A child class can access variables (fields) from its parent class and also from its own class
+    //7. Constructors cannot be inherited
 
     String breed;
 

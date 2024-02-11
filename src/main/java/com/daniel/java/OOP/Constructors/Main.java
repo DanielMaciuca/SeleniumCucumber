@@ -6,7 +6,10 @@ public class Main {
         // Constructor is a special method invoked when an object is created
         // Constructors can be used to create objects with default values/attributes
         // You can have implicit constructors and explicit constructors (implicit constructor is not defined)
+        // Constructors cannot be inherited
         // Classes can have more than 1 constructor using Overloading
+        // Overload can be done on Constructors and Method
+        // Overwrite can be done only on Methods
         // Constructors don't have a return type, and they cannot be: abstract, static or final
         // I created an object with default values age = 38 and name = Daniel
 
