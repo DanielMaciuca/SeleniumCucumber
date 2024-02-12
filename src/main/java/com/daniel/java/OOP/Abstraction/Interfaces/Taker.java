@@ -10,7 +10,7 @@ public interface Taker {
 
     public abstract void walk();
 
-    default public void fly(){
+    default public void sleep(){
 
         System.out.println("Default method defined in the interface");
 

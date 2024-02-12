@@ -16,7 +16,7 @@ public class Main {
         Taker taker = new Animal();
         taker.eat();
         taker.walk();
-        taker.fly();
+        taker.sleep();
         System.out.println(Taker.name);
 
     }
