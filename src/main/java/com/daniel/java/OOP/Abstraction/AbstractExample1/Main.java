@@ -8,7 +8,7 @@ public class Main {
     // An abstract class can have both Implemented and Not Implemented methods
     // An abstract car cannot be instantiated
     // Members of an abstract class can have different access modifiers and they can be static as well
-    // An abstract class Can have a constructor
+    // An abstract class Can have a constructor (to force the children classes to have a constructor (with super()) which matches the parent class constructor (abstract class in this case))
     // It is Not mandatory for an Abstract class to have abstract method, it can have only implemented methods
     // An abstract method is a method declared without an implementation
     // Al methods defined abstract must always be IMPLEMENTED (defined, written) in the subclass (concrete class), thus making overriding compulsory OR either make subclass itself abstract

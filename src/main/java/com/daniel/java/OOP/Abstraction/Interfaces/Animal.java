@@ -1,19 +1,27 @@
 package com.daniel.java.OOP.Abstraction.Interfaces;
 
-public class Animal implements Taker, Flyer {
+public class Animal {
 
-    @Override
+    String breed;
+
+    public Animal(String breed) {
+        this.breed = breed;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
     public void eat() {
         System.out.println("Animal is eating");
     }
 
-    @Override
-    public void walk() {
-        System.out.println("Animal is walking");
-    }
+    public void hunt() {
+        System.out.println("Animal is hunting");
 
-    @Override
-    public void fly() {
-        System.out.println("Animal is walking");
     }
 }
