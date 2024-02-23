@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 public class StepDef {
 
-    @Given("User is on page")
+    @Then("User is on page")
     public void user_is_on_page() {
         System.out.println("Test1");
     }

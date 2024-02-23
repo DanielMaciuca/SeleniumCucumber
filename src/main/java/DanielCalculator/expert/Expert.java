@@ -1,7 +1,9 @@
-package DanielCalculator;
+package DanielCalculator.expert;
 
 // Expert class implements ExpertsOperations -> we are forced to implement method from both BasicOperations an ExpertOperations interfaces, because ExpertOperations interface extend BasicOperations interface
 // Expert class extends Basic class -> methods from BasicOperations interface are already implemented in Basic class, we don't need to implement them again.
+
+import DanielCalculator.basic.Basic;
 
 public class Expert extends Basic implements ExpertOperations {
 
