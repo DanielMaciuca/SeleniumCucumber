@@ -19,7 +19,7 @@ public class TestCalculator {
 
         System.out.println(b.add(100, 200, 300, 400));
 
-        System.out.println(b.subtract(2, -3));
+        System.out.println(b.subtract(2, 5, 9));
 
         System.out.println(b.multiply(2, 6));
 

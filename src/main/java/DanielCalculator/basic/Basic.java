@@ -37,35 +37,35 @@ public class Basic implements BasicOperations {
 
     @Override
     public int subtract(int... no) {
-        int sum = 0;
+        int result = no[0];
 
-        for (int n : no) {
-            sum = sum + n;
-//          sum+=n; same thing as above
+        for (int i = 1; i < no.length; i++) {
+            result = result - no[i];
+
         }
-        return sum;
+        return result;
     }
 
     @Override
     public long subtract(long... no) {
-        long sum = 0;
+        long result = 0;
 
         for (long n : no) {
-            sum = sum + n;
+            result = result - n;
 //          sum+=n; same thing as above
         }
-        return sum;
+        return result;
     }
 
     @Override
     public double subtract(double... no) {
-        double sum = 0;
+        double result = 0;
 
         for (double n : no) {
-            sum = sum + n;
+            result = result - n;
 //          sum+=n; same thing as above
         }
-        return sum;
+        return result;
     }
 
     @Override
