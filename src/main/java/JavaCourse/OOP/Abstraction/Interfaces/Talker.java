@@ -11,4 +11,5 @@ public interface Talker {
         System.out.println("Default method defined in the interface");
 
     }
+
 }

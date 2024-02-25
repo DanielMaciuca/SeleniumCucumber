@@ -1,3 +1,4 @@
+@Run
 Feature: login
 
   Scenario: Get login 1 5 7
