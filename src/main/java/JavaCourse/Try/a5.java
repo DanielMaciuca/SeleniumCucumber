@@ -1,17 +1,15 @@
 package JavaCourse.Try;
 
 
-    public class a {
+    public class a5 {
 
 
 
 
         public static void main(String[] args) {
             int number = 4;
-            checkPrime(number);
-        }
 
-        public static void checkPrime(int number) {
+
             if (number <= 1) {
                 System.out.println(number + " is not prime");
 
@@ -26,5 +24,9 @@ package JavaCourse.Try;
             }
 
             System.out.println(number + " is prime");
-        }}
+
+        }
+
+
+        }
 

@@ -10,11 +10,11 @@ public class MyClass {
 
         byte age = input.nextByte(); // reading data
 
-        System.out.println("You are" + " " + age);
-
-        String name = input.next();
-
-        System.out.println("Your name is" + " " + name);
+//        System.out.println("You are" + " " + age);
+//
+//        String name = input.next();
+//
+//        System.out.println("Your name is" + " " + name);
 
     }
 }
