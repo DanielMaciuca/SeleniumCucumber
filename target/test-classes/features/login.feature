@@ -1,6 +1,6 @@
-@Run
+#@Run
 Feature: login
-
+  @FirstHook
   Scenario: Get login 1 5 7
     Given User is on page
     Then User click
