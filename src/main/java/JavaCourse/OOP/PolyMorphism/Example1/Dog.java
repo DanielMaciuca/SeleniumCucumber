@@ -22,7 +22,7 @@ public class Dog  extends Animal{
         System.out.println("Method that is specific to Dog class");
 
     }
-    // method overridden from Animal class
+    // Method overridden from Animal class
 
     @Override
     public void eat(String food){

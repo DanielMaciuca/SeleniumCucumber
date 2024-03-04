@@ -9,7 +9,8 @@ public class Main {
         // 2. But also the objects can have multiple forms -> Animal can be Dog or Cat
         // 4. Animal animalOne = new Cat();
         // 5. If a method is overridden (exists in Animal and Dog) it will always call the most 'specific' version. (the one from Cat)
-        // 6. Animal animalOne -> compile time, new Cat() -> run time. At the moment of compilation you don't know what version
+        // 6. Animal animalOne -> compile time, new Cat() -> run time. At the moment of compilation you don't know what version of the method will be run
+
         Animal animal = new Animal("Max", 7);
         Dog dog = new Dog("Rex", 5, "wolf");
 
@@ -106,7 +107,6 @@ public class Main {
         System.out.println(anotherDog instanceof Dog); // at compile time -> anotherDog is of type Animal, at running time -> anotherDog is of type Dog (that's why this statement is working)
 
 //    System.out.println(lastAnimal instanceof Animal); // not working
-
 
     }
 }

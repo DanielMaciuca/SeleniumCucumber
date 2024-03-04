@@ -10,7 +10,6 @@ public class pomClassPage1 extends BaseClass2 {
     // In my cases: If I don't extend the BaseClass, then @BeforeAll will not be executed and the driver will not be initialized with chrome driver
     By button = By.xpath("(//a[@href='https://practicetestautomation.com/practice/'])[1]");
 
-
     public void click2() {
 
         driver.findElement(button).click();

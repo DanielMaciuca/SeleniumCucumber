@@ -17,13 +17,14 @@ public class Cat extends Animal {
         this.fur = fur;
     }
 
-    public void specificCatMethod(){
+    public void specificCatMethod() {
 
         System.out.println("Method that is specific to Cat class");
     }
 
-    @Override // If I use this annotation it will not let me to change the parameters of the eat() method to o different type then the ones from the parent class, basically it enforces the overridden concept
-    public void eat(String food){
+    // If I use this annotation it will not let me to change the parameters of the eat() method to o different type then the ones from the parent class, basically it enforces the overridden concept
+    @Override
+    public void eat(String food) {
 
         System.out.println(getName() + " " + "Cat eats" + " " + food);
 
