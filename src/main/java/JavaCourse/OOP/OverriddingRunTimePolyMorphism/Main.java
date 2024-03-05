@@ -6,7 +6,7 @@ public class Main {
 
         AdvancedCalculator firstCalc = new AdvancedCalculator();
 
-        // Overridden = same signature (number of parameters and same type, same return type AS in Parent class), different implementation
+        // Overridden = same signature (number of parameters, sam type, same position, same return type AS in Parent class), different implementation
         // the method from the parent class calculator was Overridden in child class Advanced Calculator -> we needed another implementation
         // IMPORTANT: when java executed the method first tries to find the method in the child class (where the method was overridden). If the method is not in the child class will execute the version from the parent class
         // if eat() is overridden in child class -> execute, if eat() is not in the child class, search in the parent class and execute the eat() method from there

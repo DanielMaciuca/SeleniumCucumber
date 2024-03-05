@@ -6,7 +6,7 @@ public class Main {
     // Use an abstract class with subclasses where there is a hierarchy, a logical connection between the abstract class and subclass
     // Abstraction can be achieved with either abstract classes or interfaces
     // An abstract class can have both Implemented and Not Implemented methods
-    // An abstract car cannot be instantiated
+    // An abstract class cannot be instantiated
     // Members of an abstract class can have different access modifiers and they can be static as well
     // An abstract class Can have a constructor (to force the children classes to have a constructor (with super()) which matches the parent class constructor (abstract class in this case))
     // It is Not mandatory for an Abstract class to have abstract method, it can have only implemented methods
@@ -24,7 +24,7 @@ public class Main {
         firstBmw.drive("ceva");
 
         // You can use the reference variable of the Abstract class (super class) to create an object of the child class and execute the overridden method of that specific class
-        Car carOne = new Bmw("Second car", "500");
+        Car carOne = new Bmw("Second Car", "500");
         carOne.drive("inca ceva");
 
     }
