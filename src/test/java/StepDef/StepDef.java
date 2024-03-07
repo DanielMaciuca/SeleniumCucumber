@@ -75,4 +75,10 @@ public class StepDef {
 
         assertEquals(arg0, arg1);
     }
+
+    @Given("something in back")
+    public void something_in_back() {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println("Just a background example");
+    }
 }
