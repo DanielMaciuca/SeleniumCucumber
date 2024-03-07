@@ -1,6 +1,6 @@
 package JavaCourse.Algorithms;
 
-public class BiggestElementArray {
+public class MaxElementArray {
 
     public static void main(String[] args) {
 
