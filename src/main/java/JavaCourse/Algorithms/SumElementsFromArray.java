@@ -8,7 +8,7 @@ public class SumElementsFromArray {
         int sum = 0;
 
         for (int i = 0; i < number.length; i++) {
-            sum =+ sum + number[i];
+            sum = sum + number[i];
 
         }
 
