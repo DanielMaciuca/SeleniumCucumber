@@ -1,4 +1,4 @@
-@Run
+@UI
 Feature: login
   @FirstHook
   Scenario: Get login 1 5 7
