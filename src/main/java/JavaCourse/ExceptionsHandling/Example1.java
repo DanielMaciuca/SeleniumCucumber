@@ -1,6 +1,6 @@
 package JavaCourse.ExceptionsHandling;
 
-public class Main {
+public class Example1 {
     public static void main(String[] args) {
 
         // If everything work ok, the catch block will not be executed
