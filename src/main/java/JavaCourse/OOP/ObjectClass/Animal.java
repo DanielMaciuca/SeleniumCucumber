@@ -8,6 +8,7 @@ public class Animal {
     int age;
 
     // Press Alt + Insert and Override toString, equals, hashCode methods
+    //toString() method is used to obtain a string representation of an object
 
     @Override
     public String toString() {

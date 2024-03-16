@@ -9,6 +9,7 @@ public class DataTables {
     public String color(String color) {
         return color;
     }
+
     @ParameterType(".*")
     public Color objectColor(String color) {
         return new Color(color);
