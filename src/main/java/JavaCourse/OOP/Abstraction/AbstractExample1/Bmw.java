@@ -13,7 +13,7 @@ public class Bmw extends Car {
     @Override
     public void drive(String style) {
 
-        System.out.println("This is the implementation of the drive() method insied the Bmw child class" + " " + getName());
+        System.out.println("This is the implementation of the drive() method inside the Bmw child class" + " " + getName());
 
     }
 // Every abstract method from the abstract class need to be implemented in the subclass (concrete class)

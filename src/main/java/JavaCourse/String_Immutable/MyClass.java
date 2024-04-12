@@ -24,7 +24,7 @@ public class MyClass {
         // s1 == s2 will be true, because reference variables s1 and s2 have the same reference value, this means they point to the same object
         // s1 == s3 will be false because s3 points another String objects, even if the value "Cat" is the same
 
-        if (s1 == s3) {
+        if (s1 == s2) {
 
             System.out.println("Values are equal");
 

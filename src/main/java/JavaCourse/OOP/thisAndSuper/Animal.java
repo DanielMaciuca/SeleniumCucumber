@@ -7,7 +7,7 @@ public class Animal {
 
     public Animal() {
         //super(); -> every class in java extends Object class (even if we don't see it), that's why we have super
-        System.out.println("Constructor of the parent Animal class");
+        System.out.println("First Constructor Constructor of the parent Animal class");
     }
 
     public Animal(int age) {
