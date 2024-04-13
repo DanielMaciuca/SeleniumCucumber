@@ -8,7 +8,7 @@ public class Main {
         // 1. Methods can have multiple forms -> overridden
         // 2. But also the objects can have multiple forms -> Animal can be Dog or Cat
         // 4. Animal animalOne = new Cat();
-        // 5. If a method is overridden (exists in Animal and Dog) it will always call the most 'specific' version. (the one from Cat)
+        // 5. If a method is overridden (exists in Animal and Dog) it will always call the most 'specific' version. (the one from Dog)
         // 6. Animal animalOne -> compile time, new Cat() -> run time. At the moment of compilation you don't know what version of the method will be run
 
         Animal animal = new Animal("Max", 7);
@@ -37,18 +37,18 @@ public class Main {
         // A) The reference variable of a superclass can point (reference) to a NEW object of a child class
 
         Animal animalOne = new Dog("Gigi", 1, "pit");
-        Animal animalTwo = new Cat("miau", 2, "fluff");
+        Animal animalTwo = new Cat("Miau", 2, "fluff");
 
         animalOne.makeSound(); // specific method defined in the parent class, runs the version from the parent class
 
-        // method overridden in the child class Dog -> It will execute the version of the method eat() from the CHILD class
+        // Method overridden in the child class Dog -> It will execute the version of the method eat() from the CHILD class
         // At Run Time it will decide what version of eat() method will execute -> dynamic dispatch
-        // compile time -> is eat() method in parent -> yes, then run time, what kind of object is animalOne? -> it is a Dog, then run the overridden method eat() from child Dog class
+        // Compile time -> is eat() method in parent -> yes, then run time, what kind of object is animalOne? -> it is a Dog, then run the overridden method eat() from child Dog class
 
         animalOne.eat("Bobite");
         animalTwo.eat("Bobite ude");
 
-        // this will not work because at compile time animalOne reference variable wil search in Animal class the specificMethod() and it will not find it, since is a method of the child class
+        // this will not work because at compile time animalOne reference variable will search in Animal class the specificMethod() and it will not find it, since is a method of the child class
 
         // animalOne.specificDogMethod();
 
