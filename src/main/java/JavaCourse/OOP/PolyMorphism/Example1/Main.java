@@ -5,8 +5,9 @@ public class Main {
     public static void main(String[] args) {
 
         // Polymorphism
-        // 1. Methods can have multiple forms -> overridden
-        // 2. But also the objects can have multiple forms -> Animal can be Dog or Cat
+        // 1. Run time Polymorphism means -> what method will be actually run, the one from parent for the one from child
+        // 2. Methods can have multiple forms -> overridden
+        // 3. But also the objects can have multiple forms -> Animal can be Dog or Cat
         // 4. Animal animalOne = new Cat();
         // 5. If a method is overridden (exists in Animal and Dog) it will always call the most 'specific' version. (the one from Dog)
         // 6. Animal animalOne -> compile time, new Cat() -> run time. At the moment of compilation you don't know what version of the method will be run
