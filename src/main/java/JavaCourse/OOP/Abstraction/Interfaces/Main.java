@@ -8,6 +8,7 @@ public class Main {
     // Interfaces cannot be instantiated
     // Interfaces cannot have constructors
     // Interfaces can have fields, by default they are static final (why: the actual interface is not instantiated, interfaces don't have memory in the heap)
+    // Because the interface fields are final, this means the fields will have an initial value that cannot be overwritten
     // The reference variable of the interface (super class) can point to a new object of the child class
     // Interfaces can extend other interfaces
 
