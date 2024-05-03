@@ -1,4 +1,4 @@
-package InterviewQuestions.Constructors;
+package InterviewQuestionsJava;
 
 public class Animal {
 
