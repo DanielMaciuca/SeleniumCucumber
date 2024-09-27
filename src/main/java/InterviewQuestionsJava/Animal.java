@@ -2,7 +2,7 @@ package InterviewQuestionsJava;
 
 public class Animal {
 
-    protected String name;
+    protected String name;//
     protected int age;
 
     public String getName() {
