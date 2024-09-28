@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=ftKBLu47u_U
+
+@Getter
+@Setter
+@AllArgsConstructor
